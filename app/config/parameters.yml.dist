@@ -1,0 +1,17 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_pgsql
+    database_host: 127.0.0.1
+    database_port: 5432
+    database_name: restfony
+    database_user: db_user 
+    database_password: db_passwd
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    locale: fr
+    secret: PleaseDontTellMyBigSecretToAnybody
+    debug_toolbar: true
+    debug_redirects: false
+    use_assetic_controller: true
