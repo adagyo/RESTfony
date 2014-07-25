@@ -8,8 +8,8 @@ Requirements / Install guide on Fedora 20
 
 * Nginx >= 1.4.7
   * yum install nginx
-  * PHP >= 5.5.0
-    * yum install php-fpm
+* PHP >= 5.5.0
+  * yum install php-fpm
 * PHP modules:
   * php-intl
   * php-pdo
