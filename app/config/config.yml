@@ -70,6 +70,10 @@ doctrine_mongodb:
         default:
             auto_mapping: true
 
+fos_rest:
+    routing_loader:
+        default_format: json
+
 # Swiftmailer Configuration
 swiftmailer:
     transport: "%mailer_transport%"

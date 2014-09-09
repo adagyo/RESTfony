@@ -1,0 +1,7 @@
+parameters:
+#    res_tfony_api.example.class: RESTfony\ApiBundle\Example
+
+services:
+#    res_tfony_api.example:
+#        class: %res_tfony_api.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

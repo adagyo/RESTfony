@@ -21,6 +21,7 @@ class AppKernel extends Kernel
             new JMS\SerializerBundle\JMSSerializerBundle($this),
             new FOS\RestBundle\FOSRestBundle(),
             new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
+            new RESTfony\ApiBundle\RESTfonyApiBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
