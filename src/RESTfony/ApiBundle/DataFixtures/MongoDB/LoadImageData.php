@@ -9,10 +9,11 @@ use RESTfony\ApiBundle\Document\Image;
 class LoadImageData implements FixtureInterface{
     function load(ObjectManager $manager) {
 
-        for($i = 0; $i < 10; $i++) {
+        for($i = 0; $i < 100; $i++) {
             $image = new Image();
             $image->genUuid();
-            $image->setPath("c:\\docs\\image_$i.jpg");
+            $image->setTitle("Image #$i");
+            $image->setPath("http://docs/image_$i.jpg");
 
             $manager->persist($image);
         }

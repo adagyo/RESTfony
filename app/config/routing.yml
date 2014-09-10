@@ -1,6 +1,6 @@
 res_tfony_api:
     resource: "@RESTfonyApiBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /api
 
 NelmioApiDocBundle:
     resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
